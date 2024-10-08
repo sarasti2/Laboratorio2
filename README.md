@@ -1,6 +1,10 @@
 # WorkShop 2
 
-[![CI/CD Pipeline](https://github.com/sarasti2/Laboratorio2/actions/workflows/build.yml/badge.svg)](https://github.com/sarasti2/Laboratorio2/actions/workflows/build.yml)
+[![CI/CD Pipeline](https://github.com/sarasti2/Laboratorio2/actions/workflows/build.yml/badge.svg)](https://github.com/sarasti2/Laboratorio2/actions/workflows/build.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sarasti2_Laboratorio2-ArqSoftware&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sarasti2_Laboratorio2-ArqSoftware)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sarasti2_Laboratorio2-ArqSoftware&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sarasti2_Laboratorio2-ArqSoftware)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sarasti2_Laboratorio2-ArqSoftware&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=sarasti2_Laboratorio2-ArqSoftware)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=sarasti2_Laboratorio2-ArqSoftware&metric=coverage)](https://sonarcloud.io/summary/new_code?id=sarasti2_Laboratorio2-ArqSoftware)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=sarasti2_Laboratorio2-ArqSoftware&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=sarasti2_Laboratorio2-ArqSoftware)
 
 Implementation of a Simple App with the next operations:
 * Get random nations
