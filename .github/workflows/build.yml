@@ -57,7 +57,7 @@ jobs:
           with:
             path: ~/.sonar/cache
             key: ${{ runner.os }}-sonar
-          restore-keys: ${{ runner.os }}-sonar
+            restore-keys: ${{ runner.os }}-sonar
         #Set up Maven cache
         - name: Cache Maven packages
       #This action allows caching dependencies and build outputs to improve workflow execution time.
@@ -65,7 +65,7 @@ jobs:
           with:
             path: ~/.m2
             key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-          restore-keys: ${{ runner.os }}-m2
+            restore-keys: ${{ runner.os }}-m2
         #Analyze project with SonarCloud
         - name: Analyze with SonarCloud
           run: mvn -B verify sonar:sonar -Dsonar.projectKey=sarasti2_Laboratorio2-ArqSoftware -
