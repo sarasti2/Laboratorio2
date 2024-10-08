@@ -1,5 +1,7 @@
 # WorkShop 2
 
+[![CI/CD Pipeline](https://github.com/sarasti2/Laboratorio2/actions/workflows/build.yml/badge.svg)](https://github.com/sarasti2/Laboratorio2/actions/workflows/build.yml)
+
 Implementation of a Simple App with the next operations:
 * Get random nations
 * Get random currencies
