@@ -107,12 +107,12 @@ jobs:
         #Set artifact name
           name: artifact
         #From this path
-          path: sarasti2/laboratorio2-arqsoftware
+          path: target/laboratorio2-0.0.1-SNAPSHOT.jar
 
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: dbotiaudea/gitlab
+          image: sarasti2/laboratorio2-arqsoftware
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
