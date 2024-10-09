@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for laboratorio2-little-rain-1641 on 2024-10-08T23:24:55-05:00
+# fly.toml app configuration file generated for laboratorio2-shy-dust-7060 on 2024-10-08T23:43:12-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'laboratorio2-little-rain-1641'
+app = 'laboratorio2-shy-dust-7060'
 primary_region = 'bog'
 
 [build]
